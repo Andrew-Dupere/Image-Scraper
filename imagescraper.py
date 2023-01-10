@@ -89,7 +89,7 @@ def primary(site):
     
     r = requests.get(site)
     
-    #create soup and prse HTML code
+    #create soup and parse HTML code
     
     soup = BeautifulSoup(r.text, 'html.parser')
     
